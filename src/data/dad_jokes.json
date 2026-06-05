@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "joke": "Why did the scarecrow win an award? He was outstanding in his field."
+    },
+    {
+        "id": 2,
+        "joke": "I only know 25 letters of the alphabet. I don't know Y."
+    },
+    {
+        "id": 3,
+        "joke": "Why don't eggs tell jokes? They might crack up."
+    },
+    {
+        "id": 4,
+        "joke": "I told my dog to fetch a stick. He brought back homework."
+    },
+    {
+        "id": 5,
+        "joke": "Why did the math book look sad? Too many problems."
+    },
+    {
+        "id": 6,
+        "joke": "I tried to catch fog once. Mist."
+    },
+    {
+        "id": 7,
+        "joke": "What do you call cheese that isn't yours? Nacho cheese."
+    },
+    {
+        "id": 8,
+        "joke": "Why did the bike fall over? It was two-tired."
+    },
+    {
+        "id": 9,
+        "joke": "I'm reading a book on glue. I'm stuck on it."
+    },
+    {
+        "id": 10,
+        "joke": "Why did the cookie go to the doctor? It felt crummy."
+    },
+    {
+        "id": 11,
+        "joke": "I asked my hat to stay. It went on ahead."
+    },
+    {
+        "id": 12,
+        "joke": "Why did the golfer bring two pants? In case of a hole in one."
+    },
+    {
+        "id": 13,
+        "joke": "What did one wall say to the other? I'll meet you at the corner."
+    },
+    {
+        "id": 14,
+        "joke": "I told my clock a joke. It ticked me off."
+    },
+    {
+        "id": 15,
+        "joke": "Why don't skeletons fight? They don't have the guts."
+    },
+    {
+        "id": 16,
+        "joke": "I gave my alarm clock a raise. It worked overtime."
+    },
+    {
+        "id": 17,
+        "joke": "Why did the banana wear sunscreen? It peeled."
+    },
+    {
+        "id": 18,
+        "joke": "I tried to play hide and seek with mountains. They peaked."
+    },
+    {
+        "id": 19,
+        "joke": "What do clouds wear? Thunderwear."
+    },
+    {
+        "id": 20,
+        "joke": "I opened a bakery for dogs. I sell pup-cakes."
+    },
+    {
+        "id": 21,
+        "joke": "Why was the broom late? It swept in."
+    },
+    {
+        "id": 22,
+        "joke": "I ate a clock yesterday. Very time-consuming."
+    },
+    {
+        "id": 23,
+        "joke": "Why did the pencil nap? It was tired of drawing."
+    },
+    {
+        "id": 24,
+        "joke": "I told my shoes a joke. They laced with laughter."
+    },
+    {
+        "id": 25,
+        "joke": "What did the ocean say? Nothing, it waved."
+    },
+    {
+        "id": 26,
+        "joke": "Why did the tomato blush? It saw the salad dressing."
+    },
+    {
+        "id": 27,
+        "joke": "I tried to write a joke about paper. It was tear-able."
+    },
+    {
+        "id": 28,
+        "joke": "Why don't crabs share? They're shellfish."
+    },
+    {
+        "id": 29,
+        "joke": "I told my fridge a joke. It chilled out."
+    },
+    {
+        "id": 30,
+        "joke": "What did the zero say to the eight? Nice belt."
+    },
+    {
+        "id": 31,
+        "joke": "Why did the picture go to jail? It was framed."
+    },
+    {
+        "id": 32,
+        "joke": "I told a joke about stairs. It's on another level."
+    },
+    {
+        "id": 33,
+        "joke": "Why did the cow wear bells? Its horn didn't work."
+    },
+    {
+        "id": 34,
+        "joke": "I tried to play piano with mittens. No keys."
+    },
+    {
+        "id": 35,
+        "joke": "What do you call a sleeping bull? A bulldozer."
+    },
+    {
+        "id": 36,
+        "joke": "Why was the computer cold? It left its windows open."
+    },
+    {
+        "id": 37,
+        "joke": "I told my backpack a joke. It carried on."
+    },
+    {
+        "id": 38,
+        "joke": "Why did the scarecrow smile? He felt stuffed."
+    },
+    {
+        "id": 39,
+        "joke": "What did the grape do when stepped on? Let out a little wine."
+    },
+    {
+        "id": 40,
+        "joke": "Why was six afraid of seven? Because seven eight nine."
+    },
+    {
+        "id": 41,
+        "joke": "I told my calendar a joke. Its days were numbered."
+    },
+    {
+        "id": 42,
+        "joke": "Why did the duck get detention? He quacked jokes."
+    },
+    {
+        "id": 43,
+        "joke": "I tried to catch a squirrel. It was nuts."
+    },
+    {
+        "id": 44,
+        "joke": "Why was the broom proud? It swept awards."
+    },
+    {
+        "id": 45,
+        "joke": "I told my phone a joke. It lost signal."
+    },
+    {
+        "id": 46,
+        "joke": "Why did the paper yawn? It was sheet-tired."
+    },
+    {
+        "id": 47,
+        "joke": "I made a joke about candy. It was sweet."
+    },
+    {
+        "id": 48,
+        "joke": "Why did the shoe go to school? To get smarter."
+    },
+    {
+        "id": 49,
+        "joke": "I told my lunch a joke. It cracked me up."
+    },
+    {
+        "id": 50,
+        "joke": "Why did the orange stop? It ran out of juice."
+    },
+    {
+        "id": 51,
+        "joke": "I told my plants jokes. They grew on me."
+    },
+    {
+        "id": 52,
+        "joke": "Why did the clock sit on the shelf? It needed time out."
+    },
+    {
+        "id": 53,
+        "joke": "I tried to make bread laugh. It loafed."
+    },
+    {
+        "id": 54,
+        "joke": "What did the bee say? Buzz off."
+    },
+    {
+        "id": 55,
+        "joke": "Why did the notebook smile? It felt noted."
+    },
+    {
+        "id": 56,
+        "joke": "I told my shoes a secret. They kept it tied."
+    },
+    {
+        "id": 57,
+        "joke": "Why did the snowman grin? He saw snow jokes."
+    },
+    {
+        "id": 58,
+        "joke": "I told a joke about air. It blew over."
+    },
+    {
+        "id": 59,
+        "joke": "Why did the pen feel proud? It made a point."
+    },
+    {
+        "id": 60,
+        "joke": "I told my mirror a joke. It reflected on it."
+    },
+    {
+        "id": 61,
+        "joke": "Why did the pillow laugh? It cracked up."
+    },
+    {
+        "id": 62,
+        "joke": "I told my spoon a joke. It stirred laughter."
+    },
+    {
+        "id": 63,
+        "joke": "Why did the lamp giggle? It felt light."
+    },
+    {
+        "id": 64,
+        "joke": "I told my sandwich a joke. It was bready funny."
+    },
+    {
+        "id": 65,
+        "joke": "Why did the door blush? It got knocked on."
+    },
+    {
+        "id": 66,
+        "joke": "I told my wallet a joke. It emptied."
+    },
+    {
+        "id": 67,
+        "joke": "Why did the cookie smile? It felt chipper."
+    },
+    {
+        "id": 68,
+        "joke": "I told my pencil a joke. It drew laughs."
+    },
+    {
+        "id": 69,
+        "joke": "Why did the car grin? It felt driven."
+    },
+    {
+        "id": 70,
+        "joke": "I told my bed a joke. It rested easy."
+    },
+    {
+        "id": 71,
+        "joke": "Why did the hat laugh? It was on top."
+    },
+    {
+        "id": 72,
+        "joke": "I told my socks a joke. They rolled with it."
+    },
+    {
+        "id": 73,
+        "joke": "Why did the soap laugh? It slipped up."
+    },
+    {
+        "id": 74,
+        "joke": "I told my shoes again. They still tied."
+    },
+    {
+        "id": 75,
+        "joke": "Why did the chicken join a band? It had drumsticks."
+    },
+    {
+        "id": 76,
+        "joke": "I told my watch a joke. It ticked loudly."
+    },
+    {
+        "id": 77,
+        "joke": "Why did the book laugh? It had a good spine."
+    },
+    {
+        "id": 78,
+        "joke": "I told my chair a joke. It sat with it."
+    },
+    {
+        "id": 79,
+        "joke": "Why did the apple stop? Core issue."
+    },
+    {
+        "id": 80,
+        "joke": "I told my doorbell a joke. Ding dong."
+    },
+    {
+        "id": 81,
+        "joke": "Why did the ladder laugh? It climbed humor."
+    },
+    {
+        "id": 82,
+        "joke": "I told my hat again. It stayed put."
+    },
+    {
+        "id": 83,
+        "joke": "Why did the shoe smile? It fit in."
+    },
+    {
+        "id": 84,
+        "joke": "I told my ruler a joke. It measured laughs."
+    },
+    {
+        "id": 85,
+        "joke": "Why did the fence laugh? It got posted."
+    },
+    {
+        "id": 86,
+        "joke": "I told my dog a joke. He pawsed."
+    },
+    {
+        "id": 87,
+        "joke": "Why did the cloud smile? It felt light."
+    },
+    {
+        "id": 88,
+        "joke": "I told my spoon twice. Still stirring."
+    },
+    {
+        "id": 89,
+        "joke": "Why did the pillow grin? It felt comfy."
+    },
+    {
+        "id": 90,
+        "joke": "I told my shirt a joke. It wrinkled."
+    },
+    {
+        "id": 91,
+        "joke": "Why did the bell laugh? It rang true."
+    },
+    {
+        "id": 92,
+        "joke": "I told my lamp again. Still bright."
+    },
+    {
+        "id": 93,
+        "joke": "Why did the shoe relax? It took a sole break."
+    },
+    {
+        "id": 94,
+        "joke": "I told my keys a joke. They jingled."
+    },
+    {
+        "id": 95,
+        "joke": "Why did the plate laugh? It cracked."
+    },
+    {
+        "id": 96,
+        "joke": "I told my socks again. Still paired."
+    },
+    {
+        "id": 97,
+        "joke": "Why did the fridge smile? It felt cool."
+    },
+    {
+        "id": 98,
+        "joke": "I told my calendar twice. Same date."
+    },
+    {
+        "id": 99,
+        "joke": "Why did dad smile? These jokes worked."
+    },
+    {
+        "id": 100,
+        "joke": "What's brown and sticky? A stick!"
+    }
+]
