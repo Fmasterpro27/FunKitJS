@@ -1,26 +1,22 @@
 {
   "name": "@fmasterpro27/funkitjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight JavaScript library for jokes, dad jokes, and roasts — bring the laughs to your Node.js and TypeScript projects.",
   "main": "src/index.js",
   "types": "index.d.ts",
-
   "files": [
     "src",
     "index.d.ts",
     "README.md",
     "LICENSE"
   ],
-
   "scripts": {
     "test": "jest"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fmasterpro27/FunKitJS.git"
   },
-
   "keywords": [
     "jokes",
     "dad-jokes",
@@ -29,19 +25,15 @@
     "discord"
   ],
   "engines": {
-  "node": ">=18"
+    "node": ">=18"
   },
-
   "author": "fmasterpro27",
   "license": "Apache-2.0",
   "type": "commonjs",
-
   "bugs": {
     "url": "https://github.com/Fmasterpro27/FunKitJS/issues"
   },
-
   "homepage": "https://github.com/Fmasterpro27/FunKitJS#readme",
-
   "devDependencies": {
     "jest": "^30.4.2"
   }
