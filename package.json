@@ -1,6 +1,6 @@
 {
   "name": "@fmasterpro27/funkitjs",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "A lightweight JavaScript library for jokes, dad jokes, and roasts — bring the laughs to your Node.js and TypeScript projects.",
   "main": "src/index.js",
   "types": "index.d.ts",
