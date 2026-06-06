@@ -2,41 +2,42 @@
 
 > A lightweight JavaScript library for jokes, dad jokes, and roasts — bring the laughs to your Node.js and TypeScript projects.
 
-[![npm version](https://img.shields.io/npm/v/funkitjs.svg)](https://www.npmjs.com/package/funkitjs)
-[![License](https://img.shields.io/npm/l/funkitjs.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/@fmasterpro27/funkitjs.svg)](https://www.npmjs.com/package/@fmasterpro27/funkitjs)
+[![License](https://img.shields.io/npm/l/@fmasterpro27/funkitjs.svg)](LICENSE)
 
 ---
 
 ## Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [API Reference](#api-reference)
-- [TypeScript Support](#typescript-support)
-- [Contributing](#contributing)
-- [License](#license)
+- Features
+- Installation
+- Quick Start
+- Usage
+- API Reference
+- TypeScript Support
+- Contributing
+- License
 
 ---
 
 ## Features
 
-* 🎭 **Random Jokes** — Fetch a random joke from a curated collection
-* 👨 **Dad Jokes** — Classic, groan-worthy dad jokes on demand
-* 🔥 **Roasts** — Playful roasts for light-hearted banter
-* 📦 **Zero dependencies** — No external runtime dependencies required
-* ⚡ **Fast & lightweight** — All data is bundled locally, no API requests needed
-* 🟦 **TypeScript support** — Includes type definitions for IntelliSense and type checking
+- 🎭 Random jokes from a curated collection
+- 👨 Dad jokes for maximum cringe
+- 🔥 Playful roasts for friendly banter
+- 📦 Zero runtime dependencies
+- ⚡ Fast and lightweight
+- 🟦 Built-in TypeScript support
+- 🔄 Python-style aliases included
 
 ---
 
 ## Installation
 
-Install FunKitJS from npm:
+Install from npm:
 
 ```bash
-npm install funkitjs
+npm install @fmasterpro27/funkitjs
 ```
 
 Requires Node.js 18 or higher.
@@ -48,103 +49,197 @@ Requires Node.js 18 or higher.
 ### CommonJS
 
 ```js
-const { joke, dadJoke, roast } = require("funkitjs");
+const {
+  joke,
+  dad_joke,
+  roast,
+  get_joke,
+  get_dad_joke,
+  get_roast,
+  version,
+} = require("@fmasterpro27/funkitjs");
 
 console.log(joke());
-console.log(dadJoke());
+console.log(dad_joke());
 console.log(roast());
+
+console.log(get_joke());
+console.log(get_dad_joke());
+console.log(get_roast());
+
+console.log(version);
 ```
 
 ### ES Modules
 
 ```js
-import { joke, dadJoke, roast } from "funkitjs";
+import {
+  joke,
+  dad_joke,
+  roast,
+  get_joke,
+  get_dad_joke,
+  get_roast,
+  version,
+} from "@fmasterpro27/funkitjs";
 
-console.log(joke());
-console.log(dadJoke());
-console.log(roast());
+console.log(get_joke());
+console.log(get_dad_joke());
+console.log(get_roast());
 ```
 
 ---
 
 ## Usage
 
-### Random Jokes
+### Random Joke
 
 ```js
-const { joke } = require("funkitjs");
+const { joke } = require("@fmasterpro27/funkitjs");
 
 console.log(joke());
-// Output: "Why don't scientists trust atoms? Because they make up everything!"
 ```
 
-### Dad Jokes
+### Dad Joke
 
 ```js
-const { dadJoke } = require("funkitjs");
+const { dad_joke } = require("@fmasterpro27/funkitjs");
 
-console.log(dadJoke());
-// Output: "I'm reading a book about anti-gravity. It's impossible to put down."
+console.log(dad_joke());
 ```
 
-### Roasts
+### Roast
 
 ```js
-const { roast } = require("funkitjs");
+const { roast } = require("@fmasterpro27/funkitjs");
 
 console.log(roast());
-// Output: "I'd roast you, but my mom said I'm not allowed to burn trash."
 ```
 
-### Version Information
+### Python-Style Aliases
 
 ```js
-const { version } = require("funkitjs");
+const { get_joke, get_dad_joke, get_roast } = require("@fmasterpro27/funkitjs");
 
-console.log(version);
-// Output: "0.1.0"
+console.log(get_joke());
+console.log(get_dad_joke());
+console.log(get_roast());
 ```
 
 ---
 
 ## API Reference
 
-### `joke(): string`
+### joke()
 
-Returns a random joke from the built-in collection.
+Returns a random joke.
 
 ```js
-const { joke } = require("funkitjs");
-
-const randomJoke = joke();
+const text = joke();
 ```
 
-### `dadJoke(): string`
+Returns:
+
+```js
+string;
+```
+
+---
+
+### get_joke()
+
+Alias for `joke()`.
+
+```js
+const text = get_joke();
+```
+
+Returns:
+
+```js
+string;
+```
+
+---
+
+### dad_joke()
 
 Returns a random dad joke.
 
 ```js
-const { dadJoke } = require("funkitjs");
-
-const randomDadJoke = dadJoke();
+const text = dad_joke();
 ```
 
-### `roast(): string`
-
-Returns a random playful roast.
+Returns:
 
 ```js
-const { roast } = require("funkitjs");
-
-const randomRoast = roast();
+string;
 ```
 
-### `version: string`
+---
 
-Returns the current FunKitJS version.
+### get_dad_joke()
+
+Alias for `dad_joke()`.
 
 ```js
-const { version } = require("funkitjs");
+const text = get_dad_joke();
+```
+
+Returns:
+
+```js
+string;
+```
+
+---
+
+### roast()
+
+Returns a random roast.
+
+```js
+const text = roast();
+```
+
+Returns:
+
+```js
+string;
+```
+
+---
+
+### get_roast()
+
+Alias for `roast()`.
+
+```js
+const text = get_roast();
+```
+
+Returns:
+
+```js
+string;
+```
+
+---
+
+### version
+
+Returns the current package version.
+
+```js
+const { version } = require("@fmasterpro27/funkitjs");
+
+console.log(version);
+```
+
+Example:
+
+```js
+0.1.0
 ```
 
 ---
@@ -154,9 +249,18 @@ const { version } = require("funkitjs");
 FunKitJS includes built-in TypeScript definitions.
 
 ```ts
-import { joke, dadJoke, roast, version } from "funkitjs";
+import {
+  joke,
+  dad_joke,
+  roast,
+  get_joke,
+  get_dad_joke,
+  get_roast,
+  version,
+} from "@fmasterpro27/funkitjs";
 
 const text: string = joke();
+
 console.log(version);
 ```
 
@@ -180,7 +284,6 @@ funkitjs/
 │   └── roasts.test.js
 ├── index.d.ts
 ├── package.json
-├── demo.js
 ├── LICENSE
 └── README.md
 ```
@@ -189,26 +292,43 @@ funkitjs/
 
 ## Contributing
 
-Contributions are welcome! Whether it's adding new jokes, fixing bugs, or improving documentation — all help is appreciated.
+Contributions are welcome.
 
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature/add-puns`)
-3. Commit your changes (`git commit -m "Add pun support"`)
-4. Push to your branch (`git push origin feature/add-puns`)
+2. Create a feature branch
+
+```bash
+git checkout -b feature/my-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push your branch
+
+```bash
+git push origin feature/my-feature
+```
+
 5. Open a Pull Request
 
-Please make sure all tests pass before submitting changes.
+Please ensure all tests pass before submitting changes.
 
 ---
 
 ## Links
 
-* Homepage: https://github.com/Fmasterpro27/FunKitJS
-* Issues: https://github.com/Fmasterpro27/FunKitJS/issues
-* npm: https://www.npmjs.com/package/funkitjs
+- GitHub: https://github.com/Fmasterpro27/FunKitJS
+- Issues: https://github.com/Fmasterpro27/FunKitJS/issues
+- npm: https://www.npmjs.com/package/@fmasterpro27/funkitjs
 
 ---
 
 ## License
 
-This project is licensed under the **Apache License 2.0**. See the LICENSE file for details.
+This project is licensed under the Apache License 2.0.
+
+See the LICENSE file for details.

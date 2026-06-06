@@ -15,11 +15,22 @@ function joke() {
     return JOKES[Math.floor(Math.random() * JOKES.length)].joke;
 }
 
-function dadJoke() {
+function dad_joke() {
     return DAD_JOKES[Math.floor(Math.random() * DAD_JOKES.length)].joke;
 }
 
+function get_joke() {
+    return joke();
+}
+
+function get_dad_joke() {
+    return dad_joke();
+}
+
+
 module.exports = {
     joke,
-    dadJoke
+    dad_joke,
+    get_joke,
+    get_dad_joke
 };

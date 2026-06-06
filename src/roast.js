@@ -11,6 +11,11 @@ function roast() {
     return ROASTS[Math.floor(Math.random() * ROASTS.length)].roast;
 }
 
+function get_roast() {
+    return roast();
+}
+
 module.exports = {
-    roast
+    roast,
+    get_roast
 };
