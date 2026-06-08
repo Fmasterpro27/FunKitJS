@@ -1,9 +1,9 @@
 const { version } = require("../package.json");
 
 function getVersion() {
-    return version;
+  return version;
 }
 
 module.exports = {
-    getVersion
+  getVersion,
 };

@@ -128,6 +128,40 @@ console.log(get_roast());
 
 ---
 
+## CLI
+
+FunKitJS includes a small CLI shipped in `bin/funkit.js`. After installing the package globally or running with `npx`, you can fetch jokes from the command line.
+
+Install globally:
+
+```bash
+npm install -g @fmasterpro27/funkitjs
+# then run
+funkit joke
+```
+
+Run via npx (no install):
+
+```bash
+npx @fmasterpro27/funkitjs joke
+```
+
+CLI usage examples:
+
+```bash
+funkit joke           # prints a random joke
+funkit dad-joke       # prints a random dad joke
+funkit roast          # prints a random roast
+
+funkit get-joke       # alias
+funkit get-dad-joke
+funkit get-roast
+
+funkit version        # prints package version
+```
+
+The CLI calls the corresponding exported functions from the library and prints the result to stdout. See `bin/funkit.js` for details.
+
 ## API Reference
 
 ### joke()
@@ -239,7 +273,7 @@ console.log(version);
 Example:
 
 ```js
-0.1.0
+0.2.0
 ```
 
 ---
@@ -270,6 +304,8 @@ console.log(version);
 
 ```text
 funkitjs/
+├── bin/
+│   └──funkit.js
 ├── src/
 │   ├── index.js
 │   ├── jokes.js

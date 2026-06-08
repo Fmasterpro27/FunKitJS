@@ -1,11 +1,12 @@
 {
   "name": "@fmasterpro27/funkitjs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A lightweight JavaScript library for jokes, dad jokes, and roasts — bring the laughs to your Node.js and TypeScript projects.",
   "main": "src/index.js",
   "types": "index.d.ts",
   "files": [
     "src",
+    "bin",
     "index.d.ts",
     "README.md",
     "LICENSE"
@@ -32,6 +33,9 @@
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Fmasterpro27/FunKitJS/issues"
+  },
+  "bin": {
+    "funkit": "./bin/funkit.js"
   },
   "homepage": "https://github.com/Fmasterpro27/FunKitJS#readme",
   "devDependencies": {
