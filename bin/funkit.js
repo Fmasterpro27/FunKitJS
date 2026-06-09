@@ -4,6 +4,8 @@ const {
   joke,
   dad_joke,
   roast,
+  quote,
+  quoteData,
   get_joke,
   get_dad_joke,
   get_roast,
@@ -24,6 +26,15 @@ switch (command) {
 
   case "roast":
     console.log(roast());
+    break;
+
+  case "quote":
+    console.log(quote());
+    break;
+
+  case "quote-data":
+  case "quote_data":
+    console.log(quoteData());
     break;
 
   case "get-joke":
@@ -58,7 +69,9 @@ Usage:
   funkit joke
   funkit dad-joke
   funkit roast
+  funkit quote
 
+  funkit quote-data
   funkit get-joke
   funkit get-dad-joke
   funkit get-roast

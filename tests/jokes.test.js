@@ -18,5 +18,5 @@ test("dadjoke returns a string", () => {
 
 test("version is correct", () => {
   const { getVersion } = require("../src/version");
-  expect(getVersion()).toBe("0.2.0");
+  expect(getVersion()).toBe("0.3.0");
 });

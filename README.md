@@ -25,22 +25,12 @@
 - 🎭 Random jokes from a curated collection
 - 👨 Dad jokes for maximum cringe
 - 🔥 Playful roasts for friendly banter
+- 💬 Inspirational and motivational quotes
 - 📦 Zero runtime dependencies
 - ⚡ Fast and lightweight
 - 🟦 Built-in TypeScript support
 - 🔄 Python-style aliases included
-
----
-
-## Installation
-
-Install from npm:
-
-```bash
-npm install @fmasterpro27/funkitjs
-```
-
-Requires Node.js 18 or higher.
+- 💻 Built-in CLI support
 
 ---
 
@@ -53,6 +43,8 @@ const {
   joke,
   dad_joke,
   roast,
+  quote,
+  quoteData
   get_joke,
   get_dad_joke,
   get_roast,
@@ -62,6 +54,8 @@ const {
 console.log(joke());
 console.log(dad_joke());
 console.log(roast());
+console.log(quote());
+const.log(quoteData());
 
 console.log(get_joke());
 console.log(get_dad_joke());
@@ -77,99 +71,84 @@ import {
   joke,
   dad_joke,
   roast,
+  quote,
   get_joke,
   get_dad_joke,
   get_roast,
   version,
 } from "@fmasterpro27/funkitjs";
 
-console.log(get_joke());
-console.log(get_dad_joke());
-console.log(get_roast());
+console.log(quote());
 ```
 
 ---
 
 ## Usage
 
-### Random Joke
+### Quote
 
 ```js
-const { joke } = require("@fmasterpro27/funkitjs");
+const { quote } = require("@fmasterpro27/funkitjs");
 
-console.log(joke());
+console.log(quote());
 ```
 
-### Dad Joke
+### Quote Data
 
 ```js
-const { dad_joke } = require("@fmasterpro27/funkitjs");
+const { quoteData } = require("@fmasterpro27/funkitjs");
 
-console.log(dad_joke());
+console.log(quoteData());
 ```
 
-### Roast
+Example output:
 
 ```js
-const { roast } = require("@fmasterpro27/funkitjs");
-
-console.log(roast());
-```
-
-### Python-Style Aliases
-
-```js
-const { get_joke, get_dad_joke, get_roast } = require("@fmasterpro27/funkitjs");
-
-console.log(get_joke());
-console.log(get_dad_joke());
-console.log(get_roast());
+{
+  id: 1,
+  quote: "Stay hungry, stay foolish.",
+  author: "Steve Jobs"
+}
 ```
 
 ---
 
 ## CLI
 
-FunKitJS includes a small CLI shipped in `bin/funkit.js`. After installing the package globally or running with `npx`, you can fetch jokes from the command line.
-
 Install globally:
 
 ```bash
 npm install -g @fmasterpro27/funkitjs
-# then run
+```
+
+Examples:
+
+```bash
 funkit joke
-```
+funkit dad-joke
+funkit roast
 
-Run via npx (no install):
+funkit quote
+funkit quote-data
 
-```bash
-npx @fmasterpro27/funkitjs joke
-```
-
-CLI usage examples:
-
-```bash
-funkit joke           # prints a random joke
-funkit dad-joke       # prints a random dad joke
-funkit roast          # prints a random roast
-
-funkit get-joke       # alias
+funkit get-joke
 funkit get-dad-joke
 funkit get-roast
 
-funkit version        # prints package version
+funkit version
+funkit help
 ```
 
-The CLI calls the corresponding exported functions from the library and prints the result to stdout. See `bin/funkit.js` for details.
+---
 
 ## API Reference
 
-### joke()
+### quote()
 
-Returns a random joke.
+Returns a random quote.
 
 ```js
-const text = joke();
+const text = quote();
 ```
 
 Returns:
@@ -180,122 +159,41 @@ string;
 
 ---
 
-### get_joke()
+### quoteData()
 
-Alias for `joke()`.
+Returns quote metadata.
 
 ```js
-const text = get_joke();
+const data = quoteData();
 ```
 
 Returns:
 
 ```js
-string;
-```
-
----
-
-### dad_joke()
-
-Returns a random dad joke.
-
-```js
-const text = dad_joke();
-```
-
-Returns:
-
-```js
-string;
-```
-
----
-
-### get_dad_joke()
-
-Alias for `dad_joke()`.
-
-```js
-const text = get_dad_joke();
-```
-
-Returns:
-
-```js
-string;
-```
-
----
-
-### roast()
-
-Returns a random roast.
-
-```js
-const text = roast();
-```
-
-Returns:
-
-```js
-string;
-```
-
----
-
-### get_roast()
-
-Alias for `roast()`.
-
-```js
-const text = get_roast();
-```
-
-Returns:
-
-```js
-string;
-```
-
----
-
-### version
-
-Returns the current package version.
-
-```js
-const { version } = require("@fmasterpro27/funkitjs");
-
-console.log(version);
-```
-
-Example:
-
-```js
-0.2.0
+{
+  id: number,
+  quote: string,
+  author: string
+}
 ```
 
 ---
 
 ## TypeScript Support
 
-FunKitJS includes built-in TypeScript definitions.
-
 ```ts
 import {
   joke,
   dad_joke,
   roast,
+  quote,
   get_joke,
   get_dad_joke,
   get_roast,
   version,
 } from "@fmasterpro27/funkitjs";
 
-const text: string = joke();
-
-console.log(version);
+const text: string = quote();
 ```
 
 ---
@@ -305,19 +203,22 @@ console.log(version);
 ```text
 funkitjs/
 ├── bin/
-│   └──funkit.js
+│   └── funkit.js
 ├── src/
 │   ├── index.js
 │   ├── jokes.js
 │   ├── roast.js
+│   ├── quotes.js
 │   ├── version.js
 │   └── data/
 │       ├── jokes.json
 │       ├── dad_jokes.json
-│       └── roasts.json
+│       ├── roasts.json
+│       └── quotes.json
 ├── tests/
 │   ├── jokes.test.js
-│   └── roasts.test.js
+│   ├── roasts.test.js
+│   └── quotes.test.js
 ├── index.d.ts
 ├── package.json
 ├── LICENSE
